@@ -2,14 +2,11 @@
 
 * {
     font-family: 'Inter';
-    font-size: 15px;
     background-color: #fff;
 }
-
-/* header{
-    height: 80px;
-    width: 1440px;
-} */
+main{
+    font-size: 15px;
+}
 
 /* ------------menu da página---------- */
 #div-pai-menu {
@@ -90,4 +87,12 @@
     left: 780px;
     top: calc(50% - 32px/2);
 
+}
+
+/* ------------segunda seção da pagina----------  */
+#header-text{
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+    margin-top: 96px;
 }
