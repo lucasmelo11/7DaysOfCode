@@ -1,18 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
-* {
-    font-family: 'Inter';
+/* ------------Estilos Globais---------- */
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
     background-color: #fff;
 }
+
 main{
     font-size: 15px;
 }
 
-/* ------------menu da página---------- */
+/* ------------Menu da página---------- */
 #div-pai-menu {
     height: 96px;
     width: 100%;
-    /* background-color: red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,13 +28,11 @@ main{
     height: 48px;
     width: 400px;
     list-style: none;
-    /* background-color: aqua; */
 }
 
 #navigation-menu ul li {
     list-style: none;
     display: inline-block;
-    /* padding: 15px; */
 }
 
 #navigation-menu ul li a {
@@ -39,7 +42,7 @@ main{
     color: black;
 }
 
-/* ------------botoes de login e cadastro---------- */
+/* ------------Botoes de login e cadastro---------- */
 #botoes {
     display: flex;
     flex-direction: row;
@@ -72,27 +75,55 @@ main{
     border: none;
 }
 
-/* ------------logo e nome da pagina----------  */
+/* ------------Logo e nome da pagina----------  */
 #div-logo {
     margin-left: 30px;
     display: flex;
     align-items: center;
 }
 
-/* ------------imagem vazia no menu----------  */
+/* ------------Imagem vazia no menu----------  */
 #div-imagem-empty {
     position: static;
     width: 142px;
     height: 32px;
     left: 780px;
     top: calc(50% - 32px/2);
-
 }
 
-/* ------------segunda seção da pagina----------  */
+/* ------------Segunda seção_TEXTO----------  */
 #header-text{
     padding-left: 25%;
     padding-right: 25%;
     text-align: center;
     margin-top: 96px;
+    margin-bottom: 50px;
+}
+
+#header-text{
+    margin-bottom: 107px;
+}
+
+/* ------------Terceira seção_METRICAS----------  */
+.metricas-container{
+    height: 288px;
+    width: 100%;
+    padding-top: 20px;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.metricas-container h2 {
+    font-size: 60px;
+    margin: 0 0;
+    color: #8E2424;
+}
+
+.metricas-container p {
+    color: #667085;
+}
+
+.metricas-container div{
+    height: 100%;
+    width: 220px;
 }
