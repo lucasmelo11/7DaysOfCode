@@ -14,6 +14,13 @@ main{
     font-size: 15px;
 }
 
+p{
+    color: #667085;
+}
+
+h5{
+    color: #8E2424;
+}
 /* ------------Menu da página---------- */
 #div-pai-menu {
     height: 96px;
@@ -21,7 +28,6 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 #navigation-menu ul {
@@ -62,6 +68,7 @@ main{
     margin: 0px 0px;
     border-radius: 10px;
     border: none;
+    background-color: #fff;
 }
 
 #registro {
@@ -119,11 +126,33 @@ main{
     color: #8E2424;
 }
 
-.metricas-container p {
-    color: #667085;
-}
-
 .metricas-container div{
     height: 100%;
     width: 220px;
+}
+
+/* ------------Quarta seção_TEXTO E IMAGEM DE REUNIAO----------  */
+
+.vagas-container{
+    height: 600px;
+    width: 100%;
+}
+
+.vagas-texto{
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.vagas-container h5{
+    margin: auto;
+    width: 125px;
+    background-color: #8E24240D;
+    border-radius: 16px;
+}
+
+.vagas-container img{
+    margin: auto;
+    display: block;
 }
