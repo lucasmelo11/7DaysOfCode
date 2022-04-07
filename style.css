@@ -14,13 +14,14 @@ main{
     font-size: 15px;
 }
 
-p{
+span{
     color: #667085;
 }
 
 h5{
     color: #8E2424;
 }
+
 /* ------------Menu da página---------- */
 #div-pai-menu {
     height: 96px;
@@ -131,28 +132,65 @@ h5{
     width: 220px;
 }
 
-/* ------------Quarta seção_TEXTO E IMAGEM DE REUNIAO----------  */
+/* ------------Quarta seção_ANUNCIO DE VAGAS----------  */
 
-.vagas-container{
+.anuncio-container{
     height: 600px;
     width: 100%;
 }
 
-.vagas-texto{
+.anuncio-texto{
     padding-left: 25%;
     padding-right: 25%;
     text-align: center;
     margin-bottom: 50px;
 }
 
-.vagas-container h5{
+.anuncio-container h5{
     margin: auto;
     width: 125px;
     background-color: #8E24240D;
     border-radius: 16px;
 }
 
-.vagas-container img{
+.anuncio-container img{
     margin: auto;
     display: block;
+}
+
+/* ------------Quarta seção_DESCRIÇÃO DAS VAGAS----------  */
+.vagas-container, .area{
+    width: 600px;
+    height: 150px;
+    margin: 25px auto;
+    color: black;
+}
+
+.vaga{
+    width: 600px;
+    height: 150px;
+    margin: 24px auto;
+    display: flexbox;
+    border: solid #6670855d 1px;
+    border-radius: 20px;
+}
+
+.titulo-vaga{
+    height: 30px;
+    width: 30%;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    color: black;
+}
+
+.descricao{
+    height: 30px;
+    width: 80%;
+    display: inline-block;
+    margin: 4em 30px 5px;
+}
+
+.descricao span{
+    margin-right: 50px;
 }
